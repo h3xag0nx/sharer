@@ -1,7 +1,5 @@
 import type { GetServerSideProps, NextPage } from 'next';
-import { isBot } from 'next';
 import Head from 'next/head';
-import { NextRequest, NextResponse, userAgent } from 'next/server';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage<{
